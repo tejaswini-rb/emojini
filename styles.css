@@ -3,7 +3,7 @@ body {
     font-family: 'Playwrite Deutschland Grundschrift', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #d7d0ff;
+    background-color: #490093;
     overflow: hidden;
 }
 
@@ -104,22 +104,6 @@ body {
     height: 120%; 
     object-fit: contain; 
     object-position: center;
-}
-
-
-#gif-container {
-    width: 90%; 
-    height: auto; 
-    margin: 2% auto;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-}
-
-#gif-container img {
-    width: 100%; 
-    height: auto;
-    object-fit: contain;
 }
 
 .hidden {
