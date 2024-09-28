@@ -1,0 +1,128 @@
+
+body {
+    font-family: 'Playwrite Deutschland Grundschrift', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #d7d0ff;
+    overflow: hidden;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    max-height: 80%;
+    text-align: center;
+    height: calc(80vh - 10px);
+    width: calc(80vh - 10px);
+    font-family: 'Playwrite Deutschland Grundschrift', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 90vh;
+    font-family: 'Playwrite Deutschland Grundschrift', sans-serif;
+}
+
+.center-square {
+    /*background-color: #fff;*/
+    border: 4px dashed #333;
+    border-radius: 20px;
+
+
+
+    border-radius: 50px;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    max-height: 80%;
+    text-align: center;
+    height: calc(80vh - 10px);
+    width: calc(80vh - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden;
+    font-family: 'Playwrite Deutschland Grundschrift', sans-serif;
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-square-container {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-icon {
+    text-decoration: none;
+    color: black; 
+    font-size: 110%; 
+    font-weight: 400;
+    background-color: #ffffff41; 
+    /*border: 2px solid rgba(0, 0, 0, 0.739);*/
+    border-radius: 50px;
+    padding: 8px 10px; 
+    height: 55px; 
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.565); 
+    transition: background-color 0.3s ease; 
+}
+
+.button-icon:hover {
+    background-color: #ffcbe8; 
+    cursor: pointer; 
+}
+
+
+.start {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Playwrite Deutschland Grundschrift', sans-serif;
+}
+
+#bom {
+    width: 120%; 
+    height: 120%; 
+    object-fit: contain; 
+    object-position: center;
+}
+
+
+#gif-container {
+    width: 90%; 
+    height: auto; 
+    margin: 2% auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#gif-container img {
+    width: 100%; 
+    height: auto;
+    object-fit: contain;
+}
+
+.hidden {
+    display: none !important;
+  }
+  
